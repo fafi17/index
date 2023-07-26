@@ -1,0 +1,69 @@
+@media screen and (max-width:600px)
+{
+   .section-1, .article-1, .article-2{
+    display:none;
+   }
+    
+
+    .article-6
+        {
+            background:rgb(90, 142, 172);
+        }
+
+    .article-5
+        {
+            background:rgb(84, 114, 131);
+        }
+
+
+    footer
+        {
+            height:100vh;
+            width:100vw;
+       
+}
+.section-2{
+    height:50vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-1, .article-frappucinos, .article-backery{
+    height:40vh;
+    width:50vw;
+}
+
+.section-3{
+    height:40vh;
+    width:100vw;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.article-3
+        { height:20vh;
+            width:50vw;
+            background:rgb(90, 142, 172);
+        }
+    .article-4
+        {
+            height:20vh;
+            width:50vw;
+            background:rgb(84, 114, 131);
+        }
+
+
+header{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+}

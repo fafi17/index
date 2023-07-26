@@ -1,0 +1,146 @@
+*
+    { 
+        margin:0;
+        color:rgb(255, 240, 240);
+        font-family: Arial;
+    }
+body
+    {   
+        display:flex;
+       
+        align-items:center;
+        flex-direction:column;
+        justify-content:center;
+    }
+nav, header,  footer
+    {
+        width:100vw;
+        height:50vh;
+        display:flex;
+        flex-direction:row;
+        align-items:center; 
+        justify-content:center;
+    }
+nav
+    {
+        height:10vh;
+        background:#43251d; 
+    }
+.section-1,.section-2,.section-3,footer
+    {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .section-1,.section-3{
+        width:25vw;
+        height:50vh;
+        
+    }
+    .section-2{
+        width:50vw;
+        height:50vh;
+        background:#62382c;
+
+    }
+    .article-1{
+        display:flex;
+        align-items:left;  
+        justify-content:left;
+    }
+
+.article-1, .article-2, .article-3, .article-4, .cafetera, .fondo
+    {   
+        width:25vw;
+        height:25vh;
+        display:flex;
+        align-items:center;  
+        justify-content:center;
+        background:#8c5b3c;
+        display:flex;
+
+    }
+    .cafetera{
+        width:20vw;
+        height:20vh;
+    }
+    .article-coffe, .article-frappucinos, .article-backery
+    {   
+        width:33.3vw;
+        height:40vh;
+        display:flex;
+        flex-direction: column;
+        align-items:left;  
+        justify-content:left;
+        background:#43251d;
+        
+    }
+    
+    
+    .div-1{
+        width: 12vw;
+        height:50vh;
+        display:flex;
+        align-items:right;  
+        justify-content:right;
+    }
+    .div-2{
+        width:26vw;
+        height:50vh;
+        display:flex;
+        align-items:center;  
+        justify-content:center;
+    }
+    .div-3{
+        width:12vw;
+        height:50vh;
+        display:flex;
+        align-items:left;  
+        justify-content:left;
+       
+    }
+
+
+    
+    .article-b{
+       
+        width:50vw;
+        height:50vh;
+        display:flex;
+        align-items:center;  
+        justify-content:center;
+    }
+
+.footer-1
+    {   
+        width:100vw;
+        height:40vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#43251d;
+    }
+    
+    
+    .taza{
+        width:20vw;
+        height:50vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        animation: animaciongranos 1.2s ease-in-out infinite alternate;
+    }
+   
+     
+     @keyframes animaciongranos {
+        from {
+           transform: translateY(-20);
+        }
+     
+        to {
+           transform: translateY(30px);
+        }
+    }
+
+        
+     
+     
